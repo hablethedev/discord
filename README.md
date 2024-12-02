@@ -10,10 +10,14 @@ Discord bot for the [LegitiDevs Discord Server](https://discord.gg/teN4BqFfkk)
 To get started with the project, follow these steps:
 
 1. Clone or fork the repository.
+
 `git clone https://github.com/LegitiDevs/discord.git`
-2. Run the following commands
-```cd discord
-npm install```
+
+3. Run the following commands
+```
+cd discord
+npm install
+```
 
 ---
 
