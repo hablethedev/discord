@@ -5,6 +5,7 @@ module.exports = {
 		.setName('gamble')
 		.setDescription('Go gambling!'),
 	async execute(interaction) {
-		await interaction.reply('Gambling Result: ' + Math.floor(Math.random() * 11));
+		const gambleResult = Math.floor(Math.random() * 100) + 1;
+		await interaction.reply(`<@${interaction.user.id}> gambled and got: ${gambleResult} out of 100!`);
 	},
 };
